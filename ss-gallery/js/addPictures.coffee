@@ -1,7 +1,5 @@
 
 
-NUM_OF_PICTURES = 13
-
 
 addNumPhoto = (obj, num) ->
 	wAppend = $ '<div class="Image_Wrapper"><a onclick="imagePopup(\'./img/'+num+'.jpg\')"><img src="./img/'+num+'.jpg"></a></div>'
