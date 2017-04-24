@@ -11,6 +11,6 @@ addNumPhoto = function(obj, num) {
 
 collageContainer = $('#collageContainer');
 
-for (i = j = 0, ref = NUM_OF_PICTURES; 0 <= ref ? j <= ref : j >= ref; i = 0 <= ref ? ++j : --j) {
+for (i = 0, ref = NUM_OF_PICTURES; i < ref; i++) {
   addNumPhoto(collageContainer, i);
 }
