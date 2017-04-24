@@ -7,7 +7,7 @@ gulp = require('gulp');
 
 gulpRename = require('gulp-rename');
 
-readify('./raw/', {
+readify('raw', {
   type: 'raw',
   sort: 'date',
   order: 'desc'
