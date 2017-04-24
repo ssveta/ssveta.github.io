@@ -1,1 +1,1 @@
-var NUM_OF_PICTURES =    18  -1;
+var NUM_OF_PICTURES =    18  ;
